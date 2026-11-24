@@ -1,315 +1,286 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <!-- ==========================================
-         1. BASIC DOCUMENT CONFIGURATION
-    =========================================== -->
-
+    <!-- BASIC DOCUMENT CONFIGURATION -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
-
-    <!-- ==========================================
-         2. WEBSITE INFORMATION & SEO
-    =========================================== -->
-
-    <title data-config-text="resort.name">DeepSagar Beach Resort</title>
+    <!-- PAGE TITLE & SEO -->
+    <title>Photo Gallery | DeepSagar Beach Resort, Ladghar Dapoli</title>
 
     <meta name="description"
-        content="Discover DeepSagar Beach Resort, a relaxing coastal getaway in Maharashtra. Enjoy a comfortable stay and the beauty of the coast.">
-    <meta name="keywords" content="DeepSagar Beach Resort, beach resort, coastal resort, beach stay, resort near beach">
+        content="Explore the photo gallery of DeepSagar Beach Resort at Ladghar Beach, Dapoli. View resort surroundings, accommodation and coastal views before planning your stay.">
+
+    <meta name="keywords"
+        content="DeepSagar Beach Resort gallery, DeepSagar photos, Ladghar Beach resort photos, Dapoli resort gallery, beach resort photos Dapoli, Ladghar coastal views">
+
     <meta name="author" content="DeepSagar Beach Resort">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
 
-    <link rel="canonical" href="https://deepsagarresort.in/">
+    <link rel="canonical" href="https://deepsagarresort.in/gallery.html">
 
-
-    <!-- ==========================================
-         3. BRAND & BROWSER THEME
-    =========================================== -->
-
+    <!-- BRAND & BROWSER THEME -->
     <meta name="application-name" content="DeepSagar Beach Resort">
     <meta name="apple-mobile-web-app-title" content="DeepSagar Beach Resort">
     <meta name="theme-color" content="#063B5C">
     <meta name="color-scheme" content="light">
 
-
-    <!-- ==========================================
-         4. FAVICON & APP ICONS
-    =========================================== -->
-
+    <!-- FAVICON & APP ICONS -->
     <link rel="icon" type="image/png" href="assets/images/logo.png">
     <link rel="apple-touch-icon" href="assets/images/logo.png">
     <link rel="manifest" href="site.webmanifest">
 
-
-    <!-- ==========================================
-         5. OPEN GRAPH
-    =========================================== -->
-
+    <!-- OPEN GRAPH / FACEBOOK / WHATSAPP -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="DeepSagar Beach Resort">
-    <meta property="og:title" content="DeepSagar Beach Resort | Your Coastal Escape Awaits">
-    <meta property="og:description" content="Discover a relaxing coastal getaway at DeepSagar Beach Resort.">
-    <meta property="og:url" content="https://deepsagarresort.in/">
+    <meta property="og:title" content="Photo Gallery | DeepSagar Beach Resort">
+    <meta property="og:description"
+        content="Take a look at DeepSagar Beach Resort, its accommodation and beautiful coastal surroundings at Ladghar Beach, Dapoli.">
+    <meta property="og:url" content="https://deepsagarresort.in/gallery.html">
     <meta property="og:image" content="https://deepsagarresort.in/assets/images/image4.jpeg">
-    <meta property="og:image:alt" content="DeepSagar Beach Resort coastal experience">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Coastal scenery at DeepSagar Beach Resort">
     <meta property="og:locale" content="en_IN">
 
-
-    <!-- ==========================================
-         6. TWITTER / X CARD
-    =========================================== -->
-
+    <!-- TWITTER / X CARD -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="DeepSagar Beach Resort | Your Coastal Escape Awaits">
-    <meta name="twitter:description" content="Discover a relaxing coastal getaway at DeepSagar Beach Resort.">
+    <meta name="twitter:title" content="Photo Gallery | DeepSagar Beach Resort">
+    <meta name="twitter:description"
+        content="Explore photos of DeepSagar Beach Resort, Ladghar Beach, Dapoli, Maharashtra.">
     <meta name="twitter:image" content="https://deepsagarresort.in/assets/images/image4.jpeg">
+    <meta name="twitter:image:alt" content="DeepSagar Beach Resort coastal view">
 
-
-    <!-- ==========================================
-         7. PERFORMANCE OPTIMIZATION
-    =========================================== -->
-
+    <!-- PERFORMANCE OPTIMIZATION -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
 
-
-    <!-- ==========================================
-         8. GOOGLE FONTS
-    =========================================== -->
-
+    <!-- GOOGLE FONTS -->
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
         rel="stylesheet">
 
+    <!-- TAILWIND CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="assets/js/tailwind.config.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-
-    <!-- ==========================================
-         9. RESORT STRUCTURED DATA
-    =========================================== -->
-
+    <!-- GALLERY PAGE STRUCTURED DATA -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Resort",
-        "name": "DeepSagar Beach Resort",
-        "url": "https://deepsagarresort.in/",
-        "image": "https://deepsagarresort.in/assets/images/image4.jpeg",
-        "description": "Discover a relaxing coastal getaway at DeepSagar Beach Resort."
+        "@type": "ImageGallery",
+        "name": "DeepSagar Beach Resort Photo Gallery",
+        "url": "https://deepsagarresort.in/gallery.html",
+        "description": "Explore photos of DeepSagar Beach Resort, its accommodation and coastal surroundings at Ladghar Beach, Dapoli, Maharashtra.",
+        "about": {
+            "@type": "LodgingBusiness",
+            "name": "DeepSagar Beach Resort",
+            "url": "https://deepsagarresort.in/"
+        }
     }
     </script>
 
+    <!-- EXISTING RESPONSIVE GALLERY CSS -->
+    <style>
+        /* GLOBAL RESPONSIVENESS */
 
-<style>
-    /* GLOBAL RESPONSIVENESS */
-
-    *,
-    *::before,
-    *::after {
-        box-sizing: border-box;
-    }
-
-    html,
-    body {
-        width: 100%;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-    img {
-        max-width: 100%;
-    }
-
-    button,
-    a {
-        -webkit-tap-highlight-color: transparent;
-    }
-
-
-    /* HERO RESPONSIVENESS */
-
-    #hero-title {
-        overflow-wrap: break-word;
-    }
-
-    @media (max-width: 639px) {
-
-        header .max-w-7xl,
-        main .max-w-7xl,
-        footer .max-w-7xl {
-            padding-left: 16px;
-            padding-right: 16px;
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
         }
+
+        html,
+        body {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        button,
+        a {
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* HERO RESPONSIVENESS */
 
         #hero-title {
-            font-size: clamp(2.5rem, 11vw, 3.5rem);
-            line-height: 1.08;
+            overflow-wrap: break-word;
         }
 
-        #hero-eyebrow {
-            font-size: 11px;
-            letter-spacing: 0.16em;
+        @media (max-width: 639px) {
+
+            header .max-w-7xl,
+            main .max-w-7xl,
+            footer .max-w-7xl {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+            #hero-title {
+                font-size: clamp(2.5rem, 11vw, 3.5rem);
+                line-height: 1.08;
+            }
+
+            #hero-eyebrow {
+                font-size: 11px;
+                letter-spacing: 0.16em;
+            }
+
+            #hero-description {
+                font-size: 14px;
+                line-height: 1.8;
+            }
         }
 
-        #hero-description {
-            font-size: 14px;
-            line-height: 1.8;
-        }
-    }
-
-
-    /* GALLERY SPACING */
-
-    #gallery {
-        width: 100%;
-        padding-top: 55px;
-        padding-bottom: 55px;
-    }
-
-    #gallery-grid {
-        width: 100%;
-        min-width: 0;
-    }
-
-    #gallery-grid > * {
-        min-width: 0;
-        max-width: 100%;
-    }
-
-    #gallery-grid img {
-        max-width: 100%;
-    }
-
-
-    /* MOBILE GALLERY */
-
-    @media (max-width: 639px) {
+        /* GALLERY SPACING */
 
         #gallery {
-            padding-top: 42px;
-            padding-bottom: 42px;
-        }
-
-        #gallery h1 {
-            font-size: clamp(2rem, 8vw, 2.65rem);
-            line-height: 1.15;
-        }
-
-        #gallery p {
-            font-size: 13px;
-            line-height: 1.7;
+            width: 100%;
+            padding-top: 55px;
+            padding-bottom: 55px;
         }
 
         #gallery-grid {
-            gap: 12px;
+            width: 100%;
+            min-width: 0;
         }
 
-        #whatsapp-float,
-        #call-float {
-            width: 48px;
-            height: 48px;
+        #gallery-grid > * {
+            min-width: 0;
+            max-width: 100%;
         }
 
-        footer .grid {
-            gap: 30px;
+        #gallery-grid img {
+            max-width: 100%;
         }
-    }
 
+        /* MOBILE GALLERY */
 
-    /* SMALL MOBILE */
+        @media (max-width: 639px) {
 
-    @media (max-width: 380px) {
+            #gallery {
+                padding-top: 42px;
+                padding-bottom: 42px;
+            }
 
-        header .max-w-7xl,
-        main .max-w-7xl,
-        footer .max-w-7xl {
-            padding-left: 12px;
-            padding-right: 12px;
+            #gallery h1 {
+                font-size: clamp(2rem, 8vw, 2.65rem);
+                line-height: 1.15;
+            }
+
+            #gallery p {
+                font-size: 13px;
+                line-height: 1.7;
+            }
+
+            #gallery-grid {
+                gap: 12px;
+            }
+
+            #whatsapp-float,
+            #call-float {
+                width: 48px;
+                height: 48px;
+            }
+
+            footer .grid {
+                gap: 30px;
+            }
         }
+
+        /* SMALL MOBILE */
+
+        @media (max-width: 380px) {
+
+            header .max-w-7xl,
+            main .max-w-7xl,
+            footer .max-w-7xl {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+            #gallery-grid {
+                gap: 10px;
+            }
+        }
+
+        /* LIGHTBOX */
+
+        #gallery-lightbox {
+            padding: 12px;
+        }
+
+        #gallery-lightbox-image {
+            max-width: calc(100vw - 24px);
+            max-height: calc(100dvh - 100px);
+            object-fit: contain;
+        }
+
+        /* GALLERY IMAGE VISIBILITY FIX */
 
         #gallery-grid {
-            gap: 10px;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+            width: 100%;
         }
-    }
 
+        #gallery-grid > * {
+            position: relative;
+            display: block;
+            width: 100%;
+            min-width: 0;
+            aspect-ratio: 4 / 3;
+            overflow: hidden;
+            border-radius: 18px;
+            background: #063B5C;
+        }
 
-    /* LIGHTBOX */
+        #gallery-grid img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-    #gallery-lightbox {
-        padding: 12px;
-    }
+        @media (max-width: 1023px) {
+            #gallery-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
 
-    #gallery-lightbox-image {
-        max-width: calc(100vw - 24px);
-        max-height: calc(100dvh - 100px);
-        object-fit: contain;
-    }
+        @media (max-width: 639px) {
+            #gallery-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 10px;
+            }
 
-    /* GALLERY IMAGE VISIBILITY FIX */
-
-#gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
-    width: 100%;
-}
-
-#gallery-grid > * {
-    position: relative;
-    display: block;
-    width: 100%;
-    min-width: 0;
-    aspect-ratio: 4 / 3;
-    overflow: hidden;
-    border-radius: 18px;
-    background: #063B5C;
-}
-
-#gallery-grid img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-@media (max-width: 1023px) {
-    #gallery-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media (max-width: 639px) {
-    #gallery-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
-    }
-
-    #gallery-grid > * {
-        aspect-ratio: 1 / 1;
-        border-radius: 12px;
-    }
-}
-
-</style>
+            #gallery-grid > * {
+                aspect-ratio: 1 / 1;
+                border-radius: 12px;
+            }
+        }
+    </style>
 
 </head>
 
-
 <body class="bg-coastal text-deep font-sans antialiased">
+
 
 
     <!-- ==========================================

@@ -32,7 +32,7 @@ const SITE_CONFIG = {
     googleReviews:
       "https://www.google.com/maps/search/?api=1&query=Deepsagar+Beach+Resort",
 
-    booking: "https://wa.me/919876543210",
+    booking: "https://wa.me/919833785797",
   },
 
   images: {
