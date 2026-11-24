@@ -1,0 +1,16 @@
+{
+  "name": "DeepSagar Resort",
+  "short_name": "DeepSagar",
+  "description": "Experience a relaxing coastal stay at DeepSagar Resort.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9EF",
+  "theme_color": "#075B70",
+  "icons": [
+    {
+      "src": "/assets/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
